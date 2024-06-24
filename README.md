@@ -8,6 +8,8 @@ Tecnologias utilizadas:
 - TypeScript
 - Vite
 
+- Veja funcionando em https://calc-project-nine.vercel.app/
+
 Para rodar o projeto:
 
 - Clone o projeto em https://github.com/EmanuelBitenc/CalcProject.git
