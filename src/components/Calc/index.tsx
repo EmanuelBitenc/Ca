@@ -114,7 +114,10 @@ const Calc = () => {
             <ButtonCalc label="=" onClick={result} />
           </Row>
           <Flex justifyContent="end" fontSize={10} mr={2} mt={5}>
-            <Link href="https://www.linkedin.com/in/emanuelbitencourt/">
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/emanuelbitencourt/"
+            >
               By bitenCorp
             </Link>
           </Flex>
