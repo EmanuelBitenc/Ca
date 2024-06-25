@@ -15,22 +15,22 @@ const Calc = () => {
 
   const minus = () => {
     setFirstNumber(value);
-    setValue("0");
+    setValue("");
     setSinal("-");
   };
   const multi = () => {
     setFirstNumber(value);
-    setValue("0");
+    setValue("");
     setSinal("*");
   };
   const div = () => {
     setFirstNumber(value);
-    setValue("0");
+    setValue("");
     setSinal("/");
   };
   const add = () => {
     setFirstNumber(value);
-    setValue("0");
+    setValue("");
     setSinal("+");
   };
 
