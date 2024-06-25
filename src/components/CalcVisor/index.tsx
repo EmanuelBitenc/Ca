@@ -8,7 +8,7 @@ interface CalcVisorProps {
 const CalcVisor: React.FC<CalcVisorProps> = ({ value }) => {
   return (
     <Input
-      w="full"
+      w={{ base: "full" }}
       h="120px"
       fontSize="4xl"
       disabled

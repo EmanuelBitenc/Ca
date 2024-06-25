@@ -8,7 +8,21 @@ interface ButtonCalcProps {
 
 const ButtonCalc: React.FC<ButtonCalcProps> = ({ label, onClick }) => {
   return (
-    <Button p="30px" fontSize={"2xl"} flex="1" m="5px" onClick={onClick}>
+    <Button
+      fontSize={{
+        base: "2xl",
+      }}
+      flex="1"
+      m={{
+        base: "1px",
+        sm: "5px",
+      }}
+      onClick={onClick}
+      p={{
+        base: "0px",
+        sm: "30px",
+      }}
+    >
       {label}
     </Button>
   );
