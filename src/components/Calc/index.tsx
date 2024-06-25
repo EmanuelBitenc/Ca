@@ -81,7 +81,7 @@ const Calc = () => {
         Calc Project
       </Text>
       <Box
-        minW="md"
+        m="20px"
         boxShadow="0px 0px 0px 20px #121233"
         bg="white"
         rounded="md"
